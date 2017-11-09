@@ -1,0 +1,4 @@
+# seminar-experiment
+The product of my two days work - data, scripts and outputs from the procedure of analyzing the results of the seminar experiment conducted by my group by the end of the third grade of psychology studies.
+
+During the creation of the experiment procedure in PsychoPy we had made some mistakes (e.g. we hadn't payed attention to the naming of participants, which caused errors while iterating by their name and resulted in extra work with changing their names). Problems was mainly caused by our inexperience with designing experimental procedure in PsychoPy and then counting it's results in R. It was our first contact with those tools and we couldn't rely on our supervisor experience, because he had never used those tools before and we were forced to learn it on our own. The effect is a bit messy project structure and the scripts code. 

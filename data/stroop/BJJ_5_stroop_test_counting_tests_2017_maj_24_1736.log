@@ -1,0 +1,641 @@
+37.7768 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0945DD30>, name='window1', pos=[0, 0], screen=0, size=array([1366,  768]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+37.7769 	EXP 	window1: recordFrameIntervals = False
+38.0888 	EXP 	window1: recordFrameIntervals = True
+38.4324 	EXP 	window1: recordFrameIntervals = False
+38.6722 	EXP 	Created test_intro_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_intro_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+38.7338 	EXP 	Created test_count_instr_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_count_instr_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+38.7506 	EXP 	Created test_count_black_square = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='black_square.png', interpolate=True, mask=None, maskParams=None, name='test_count_black_square', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+38.7534 	EXP 	Created test_count_stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='test_count_stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+38.8042 	EXP 	Created test_count_expl_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_count_expl_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+38.8601 	EXP 	Created test_read_instr_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_read_instr_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+38.8745 	EXP 	Created test_read_black_square = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='black_square.png', interpolate=True, mask=None, maskParams=None, name='test_read_black_square', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+38.8772 	EXP 	Created test_read_stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='test_read_stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+38.9319 	EXP 	Created test_read_expl_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_read_expl_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+38.9855 	EXP 	Created test_inter_instr_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_inter_instr_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+38.9996 	EXP 	Created test_inter_black_square = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='black_square.png', interpolate=True, mask=None, maskParams=None, name='test_inter_black_square', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.0023 	EXP 	Created test_inter_stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='test_inter_stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.0514 	EXP 	Created test_inter_expl_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='test_inter_expl_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+39.0812 	EXP 	Created intro_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='intro_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+39.1294 	EXP 	Created count_instr_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='count_instr_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+39.1445 	EXP 	Created count_black_square = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='black_square.png', interpolate=True, mask=None, maskParams=None, name='count_black_square', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.1471 	EXP 	Created count_stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='count_stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.1979 	EXP 	Created read_instr_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='read_instr_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+39.2116 	EXP 	Created read_black_square = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='black_square.png', interpolate=True, mask=None, maskParams=None, name='read_black_square', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.2143 	EXP 	Created read_stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='read_stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.2625 	EXP 	Created inter_instr_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='inter_instr_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+39.2745 	EXP 	Created inter_black_square = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='black_square.png', interpolate=True, mask=None, maskParams=None, name='inter_black_square', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.2774 	EXP 	Created inter_stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='inter_stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 640.,  400.]), texRes=128, units='pix', win=Window(...))
+39.3088 	EXP 	test_intro_text: autoDraw = True
+815.5894 	DATA 	Keypress: space
+815.6510 	EXP 	test_intro_text: autoDraw = False
+815.6510 	EXP 	test_count_instr_text: autoDraw = True
+829.8247 	DATA 	Keypress: space
+829.8351 	EXP 	Imported tests_conditions/test_count_conditions.xlsx as conditions, 3 conditions, 2 params
+829.8354 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+829.8364 	EXP 	New trial (rep=0, index=0): {u'test_countFile': u'dots/dot_0.png', u'testC_corrAns': u'tab'}
+829.8872 	EXP 	test_count_instr_text: autoDraw = False
+829.8872 	EXP 	test_count_stimulus: image = u'dots/dot_0.png'
+829.8872 	EXP 	test_count_black_square: autoDraw = True
+829.8872 	EXP 	test_count_stimulus: autoDraw = True
+833.8400 	EXP 	New trial (rep=0, index=1): {u'test_countFile': u'dots/dot_1.png', u'testC_corrAns': 1L}
+833.8861 	EXP 	test_count_black_square: autoDraw = False
+833.8861 	EXP 	test_count_stimulus: autoDraw = False
+833.8861 	EXP 	test_count_stimulus: image = u'dots/dot_1.png'
+833.8861 	EXP 	test_count_black_square: autoDraw = True
+833.8861 	EXP 	test_count_stimulus: autoDraw = True
+835.6054 	DATA 	Keypress: 1
+835.6061 	EXP 	New trial (rep=0, index=2): {u'test_countFile': u'dots/dot_3.png', u'testC_corrAns': 3L}
+835.6520 	EXP 	test_count_black_square: autoDraw = False
+835.6520 	EXP 	test_count_stimulus: autoDraw = False
+835.6520 	EXP 	test_count_stimulus: image = u'dots/dot_3.png'
+835.6520 	EXP 	test_count_black_square: autoDraw = True
+835.6520 	EXP 	test_count_stimulus: autoDraw = True
+836.6836 	DATA 	Keypress: 3
+836.7144 	EXP 	test_count_black_square: autoDraw = False
+836.7144 	EXP 	test_count_stimulus: autoDraw = False
+836.7144 	EXP 	test_count_expl_text: autoDraw = True
+848.6694 	DATA 	Keypress: space
+848.7001 	EXP 	test_count_expl_text: autoDraw = False
+848.7001 	EXP 	test_read_instr_text: autoDraw = True
+869.3717 	DATA 	Keypress: space
+869.3820 	EXP 	Imported tests_conditions/test_read_conditions.xlsx as conditions, 3 conditions, 2 params
+869.3823 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+869.3826 	EXP 	New trial (rep=0, index=0): {u'test_readFile': u'numbers/1.png', u'testR_corrAns': 1L}
+869.4046 	EXP 	test_read_instr_text: autoDraw = False
+869.4046 	EXP 	test_read_stimulus: image = u'numbers/1.png'
+869.4046 	EXP 	test_read_black_square: autoDraw = True
+869.4046 	EXP 	test_read_stimulus: autoDraw = True
+871.2471 	DATA 	Keypress: 1
+871.2481 	EXP 	New trial (rep=0, index=1): {u'test_readFile': u'numbers/33.png', u'testR_corrAns': 3L}
+871.2937 	EXP 	test_read_black_square: autoDraw = False
+871.2937 	EXP 	test_read_stimulus: autoDraw = False
+871.2937 	EXP 	test_read_stimulus: image = u'numbers/33.png'
+871.2937 	EXP 	test_read_black_square: autoDraw = True
+871.2937 	EXP 	test_read_stimulus: autoDraw = True
+872.9660 	DATA 	Keypress: 3
+872.9666 	EXP 	New trial (rep=0, index=2): {u'test_readFile': u'numbers/444.png', u'testR_corrAns': 4L}
+873.0125 	EXP 	test_read_black_square: autoDraw = False
+873.0125 	EXP 	test_read_stimulus: autoDraw = False
+873.0125 	EXP 	test_read_stimulus: image = u'numbers/444.png'
+873.0125 	EXP 	test_read_black_square: autoDraw = True
+873.0125 	EXP 	test_read_stimulus: autoDraw = True
+874.7008 	DATA 	Keypress: 4
+874.7318 	EXP 	test_read_black_square: autoDraw = False
+874.7318 	EXP 	test_read_stimulus: autoDraw = False
+874.7318 	EXP 	test_read_expl_text: autoDraw = True
+881.6992 	DATA 	Keypress: space
+881.7299 	EXP 	test_read_expl_text: autoDraw = False
+881.7299 	EXP 	test_inter_instr_text: autoDraw = True
+888.0120 	DATA 	Keypress: space
+888.0255 	EXP 	Imported tests_conditions/test_inter_conditions.xlsx as conditions, 3 conditions, 2 params
+888.0258 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+888.0262 	EXP 	New trial (rep=0, index=0): {u'test_interFile': u'numbers/1.png', u'testI_corrAns': 1L}
+888.0743 	EXP 	test_inter_instr_text: autoDraw = False
+888.0743 	EXP 	test_inter_stimulus: image = u'numbers/1.png'
+888.0743 	EXP 	test_inter_black_square: autoDraw = True
+888.0743 	EXP 	test_inter_stimulus: autoDraw = True
+889.1685 	DATA 	Keypress: 1
+889.1693 	EXP 	New trial (rep=0, index=1): {u'test_interFile': u'numbers/33.png', u'testI_corrAns': 2L}
+889.2149 	EXP 	test_inter_black_square: autoDraw = False
+889.2149 	EXP 	test_inter_stimulus: autoDraw = False
+889.2149 	EXP 	test_inter_stimulus: image = u'numbers/33.png'
+889.2149 	EXP 	test_inter_black_square: autoDraw = True
+889.2149 	EXP 	test_inter_stimulus: autoDraw = True
+890.1843 	DATA 	Keypress: 2
+890.1850 	EXP 	New trial (rep=0, index=2): {u'test_interFile': u'numbers/444.png', u'testI_corrAns': 3L}
+890.2152 	EXP 	test_inter_black_square: autoDraw = False
+890.2152 	EXP 	test_inter_stimulus: autoDraw = False
+890.2152 	EXP 	test_inter_stimulus: image = u'numbers/444.png'
+890.2152 	EXP 	test_inter_black_square: autoDraw = True
+890.2152 	EXP 	test_inter_stimulus: autoDraw = True
+891.1219 	DATA 	Keypress: 3
+891.1527 	EXP 	test_inter_black_square: autoDraw = False
+891.1527 	EXP 	test_inter_stimulus: autoDraw = False
+891.1527 	EXP 	test_inter_expl_text: autoDraw = True
+892.7160 	DATA 	Keypress: space
+892.7470 	EXP 	test_inter_expl_text: autoDraw = False
+892.7470 	EXP 	intro_text: autoDraw = True
+895.2162 	DATA 	Keypress: space
+895.2166 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+895.2169 	EXP 	New trial (rep=0, index=0): None
+895.2475 	EXP 	intro_text: autoDraw = False
+895.2475 	EXP 	count_instr_text: autoDraw = True
+899.4829 	DATA 	Keypress: space
+899.4933 	EXP 	Imported conditions/count_conditions.xlsx as conditions, 5 conditions, 2 params
+899.4937 	EXP 	Created sequence: random, trialTypes=5, nReps=3, seed=None
+899.4940 	EXP 	New trial (rep=0, index=0): {u'countFile': u'dots/dot_1.png', u'count_corrAns': 1L}
+899.5157 	EXP 	count_instr_text: autoDraw = False
+899.5157 	EXP 	count_stimulus: image = u'dots/dot_1.png'
+899.5157 	EXP 	count_black_square: autoDraw = True
+899.5157 	EXP 	count_stimulus: autoDraw = True
+900.4688 	DATA 	Keypress: 1
+900.4698 	EXP 	New trial (rep=0, index=1): {u'countFile': u'dots/dot_4.png', u'count_corrAns': 4L}
+900.4847 	EXP 	count_black_square: autoDraw = False
+900.4847 	EXP 	count_stimulus: autoDraw = False
+900.4847 	EXP 	count_stimulus: image = u'dots/dot_4.png'
+900.4847 	EXP 	count_black_square: autoDraw = True
+900.4847 	EXP 	count_stimulus: autoDraw = True
+901.7022 	DATA 	Keypress: 4
+901.7029 	EXP 	New trial (rep=0, index=2): {u'countFile': u'dots/dot_3.png', u'count_corrAns': 3L}
+901.7488 	EXP 	count_black_square: autoDraw = False
+901.7488 	EXP 	count_stimulus: autoDraw = False
+901.7488 	EXP 	count_stimulus: image = u'dots/dot_3.png'
+901.7488 	EXP 	count_black_square: autoDraw = True
+901.7488 	EXP 	count_stimulus: autoDraw = True
+902.5919 	DATA 	Keypress: 3
+902.5926 	EXP 	New trial (rep=0, index=3): {u'countFile': u'dots/dot_0.png', u'count_corrAns': u'tab'}
+902.6386 	EXP 	count_black_square: autoDraw = False
+902.6386 	EXP 	count_stimulus: autoDraw = False
+902.6386 	EXP 	count_stimulus: image = u'dots/dot_0.png'
+902.6386 	EXP 	count_black_square: autoDraw = True
+902.6386 	EXP 	count_stimulus: autoDraw = True
+904.8889 	DATA 	Keypress: tab
+904.8896 	EXP 	New trial (rep=0, index=4): {u'countFile': u'dots/dot_2.png', u'count_corrAns': 2L}
+904.9356 	EXP 	count_black_square: autoDraw = False
+904.9356 	EXP 	count_stimulus: autoDraw = False
+904.9356 	EXP 	count_stimulus: image = u'dots/dot_2.png'
+904.9356 	EXP 	count_black_square: autoDraw = True
+904.9356 	EXP 	count_stimulus: autoDraw = True
+906.3737 	DATA 	Keypress: 2
+906.3744 	EXP 	New trial (rep=1, index=0): {u'countFile': u'dots/dot_1.png', u'count_corrAns': 1L}
+906.4200 	EXP 	count_black_square: autoDraw = False
+906.4200 	EXP 	count_stimulus: autoDraw = False
+906.4200 	EXP 	count_stimulus: image = u'dots/dot_1.png'
+906.4200 	EXP 	count_black_square: autoDraw = True
+906.4200 	EXP 	count_stimulus: autoDraw = True
+907.1832 	DATA 	Keypress: 1
+907.1839 	EXP 	New trial (rep=1, index=1): {u'countFile': u'dots/dot_4.png', u'count_corrAns': 4L}
+907.2297 	EXP 	count_black_square: autoDraw = False
+907.2297 	EXP 	count_stimulus: autoDraw = False
+907.2297 	EXP 	count_stimulus: image = u'dots/dot_4.png'
+907.2297 	EXP 	count_black_square: autoDraw = True
+907.2297 	EXP 	count_stimulus: autoDraw = True
+908.2616 	DATA 	Keypress: 4
+908.2623 	EXP 	New trial (rep=1, index=2): {u'countFile': u'dots/dot_3.png', u'count_corrAns': 3L}
+908.3082 	EXP 	count_black_square: autoDraw = False
+908.3082 	EXP 	count_stimulus: autoDraw = False
+908.3082 	EXP 	count_stimulus: image = u'dots/dot_3.png'
+908.3082 	EXP 	count_black_square: autoDraw = True
+908.3082 	EXP 	count_stimulus: autoDraw = True
+909.2464 	DATA 	Keypress: 3
+909.2471 	EXP 	New trial (rep=1, index=3): {u'countFile': u'dots/dot_2.png', u'count_corrAns': 2L}
+909.2929 	EXP 	count_black_square: autoDraw = False
+909.2929 	EXP 	count_stimulus: autoDraw = False
+909.2929 	EXP 	count_stimulus: image = u'dots/dot_2.png'
+909.2929 	EXP 	count_black_square: autoDraw = True
+909.2929 	EXP 	count_stimulus: autoDraw = True
+910.1679 	DATA 	Keypress: 2
+910.1687 	EXP 	New trial (rep=1, index=4): {u'countFile': u'dots/dot_0.png', u'count_corrAns': u'tab'}
+910.2149 	EXP 	count_black_square: autoDraw = False
+910.2149 	EXP 	count_stimulus: autoDraw = False
+910.2149 	EXP 	count_stimulus: image = u'dots/dot_0.png'
+910.2149 	EXP 	count_black_square: autoDraw = True
+910.2149 	EXP 	count_stimulus: autoDraw = True
+911.3091 	DATA 	Keypress: tab
+911.3099 	EXP 	New trial (rep=2, index=0): {u'countFile': u'dots/dot_2.png', u'count_corrAns': 2L}
+911.3559 	EXP 	count_black_square: autoDraw = False
+911.3559 	EXP 	count_stimulus: autoDraw = False
+911.3559 	EXP 	count_stimulus: image = u'dots/dot_2.png'
+911.3559 	EXP 	count_black_square: autoDraw = True
+911.3559 	EXP 	count_stimulus: autoDraw = True
+912.0638 	DATA 	Keypress: 2
+912.0646 	EXP 	New trial (rep=2, index=1): {u'countFile': u'dots/dot_4.png', u'count_corrAns': 4L}
+912.0968 	EXP 	count_black_square: autoDraw = False
+912.0968 	EXP 	count_stimulus: autoDraw = False
+912.0968 	EXP 	count_stimulus: image = u'dots/dot_4.png'
+912.0968 	EXP 	count_black_square: autoDraw = True
+912.0968 	EXP 	count_stimulus: autoDraw = True
+913.0752 	DATA 	Keypress: 4
+913.0759 	EXP 	New trial (rep=2, index=2): {u'countFile': u'dots/dot_3.png', u'count_corrAns': 3L}
+913.1221 	EXP 	count_black_square: autoDraw = False
+913.1221 	EXP 	count_stimulus: autoDraw = False
+913.1221 	EXP 	count_stimulus: image = u'dots/dot_3.png'
+913.1221 	EXP 	count_black_square: autoDraw = True
+913.1221 	EXP 	count_stimulus: autoDraw = True
+913.9344 	DATA 	Keypress: 3
+913.9351 	EXP 	New trial (rep=2, index=3): {u'countFile': u'dots/dot_1.png', u'count_corrAns': 1L}
+913.9809 	EXP 	count_black_square: autoDraw = False
+913.9809 	EXP 	count_stimulus: autoDraw = False
+913.9809 	EXP 	count_stimulus: image = u'dots/dot_1.png'
+913.9809 	EXP 	count_black_square: autoDraw = True
+913.9809 	EXP 	count_stimulus: autoDraw = True
+914.7941 	DATA 	Keypress: 1
+914.7949 	EXP 	New trial (rep=2, index=4): {u'countFile': u'dots/dot_0.png', u'count_corrAns': u'tab'}
+914.8410 	EXP 	count_black_square: autoDraw = False
+914.8410 	EXP 	count_stimulus: autoDraw = False
+914.8410 	EXP 	count_stimulus: image = u'dots/dot_0.png'
+914.8410 	EXP 	count_black_square: autoDraw = True
+914.8410 	EXP 	count_stimulus: autoDraw = True
+915.6535 	DATA 	Keypress: tab
+915.6845 	EXP 	count_black_square: autoDraw = False
+915.6845 	EXP 	count_stimulus: autoDraw = False
+915.6845 	EXP 	read_instr_text: autoDraw = True
+917.6367 	DATA 	Keypress: space
+917.6469 	EXP 	Imported conditions/read_conditions.xlsx as conditions, 10 conditions, 2 params
+917.6472 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+917.6476 	EXP 	New trial (rep=0, index=0): {u'readFile': u'numbers/3.png', u'read_corrAns': 3L}
+917.6698 	EXP 	read_instr_text: autoDraw = False
+917.6698 	EXP 	read_stimulus: image = u'numbers/3.png'
+917.6698 	EXP 	read_black_square: autoDraw = True
+917.6698 	EXP 	read_stimulus: autoDraw = True
+920.7627 	DATA 	Keypress: 1
+920.7641 	EXP 	New trial (rep=0, index=1): {u'readFile': u'numbers/22.png', u'read_corrAns': 2L}
+920.8090 	EXP 	read_black_square: autoDraw = False
+920.8090 	EXP 	read_stimulus: autoDraw = False
+920.8090 	EXP 	read_stimulus: image = u'numbers/22.png'
+920.8090 	EXP 	read_black_square: autoDraw = True
+920.8090 	EXP 	read_stimulus: autoDraw = True
+921.6842 	DATA 	Keypress: 2
+921.6849 	EXP 	New trial (rep=0, index=2): {u'readFile': u'numbers/33.png', u'read_corrAns': 3L}
+921.7153 	EXP 	read_black_square: autoDraw = False
+921.7153 	EXP 	read_stimulus: autoDraw = False
+921.7153 	EXP 	read_stimulus: image = u'numbers/33.png'
+921.7153 	EXP 	read_black_square: autoDraw = True
+921.7153 	EXP 	read_stimulus: autoDraw = True
+922.9335 	DATA 	Keypress: 2
+922.9342 	EXP 	New trial (rep=0, index=3): {u'readFile': u'numbers/44.png', u'read_corrAns': 4L}
+922.9797 	EXP 	read_black_square: autoDraw = False
+922.9797 	EXP 	read_stimulus: autoDraw = False
+922.9797 	EXP 	read_stimulus: image = u'numbers/44.png'
+922.9797 	EXP 	read_black_square: autoDraw = True
+922.9797 	EXP 	read_stimulus: autoDraw = True
+924.0427 	DATA 	Keypress: 2
+924.0437 	EXP 	New trial (rep=0, index=4): {u'readFile': u'numbers/333.png', u'read_corrAns': 3L}
+924.0890 	EXP 	read_black_square: autoDraw = False
+924.0890 	EXP 	read_stimulus: autoDraw = False
+924.0890 	EXP 	read_stimulus: image = u'numbers/333.png'
+924.0890 	EXP 	read_black_square: autoDraw = True
+924.0890 	EXP 	read_stimulus: autoDraw = True
+924.9651 	DATA 	Keypress: 3
+924.9658 	EXP 	New trial (rep=0, index=5): {u'readFile': u'numbers/4444.png', u'read_corrAns': 4L}
+925.0116 	EXP 	read_black_square: autoDraw = False
+925.0116 	EXP 	read_stimulus: autoDraw = False
+925.0116 	EXP 	read_stimulus: image = u'numbers/4444.png'
+925.0116 	EXP 	read_black_square: autoDraw = True
+925.0116 	EXP 	read_stimulus: autoDraw = True
+926.1685 	DATA 	Keypress: 4
+926.1692 	EXP 	New trial (rep=0, index=6): {u'readFile': u'numbers/4.png', u'read_corrAns': 4L}
+926.2148 	EXP 	read_black_square: autoDraw = False
+926.2148 	EXP 	read_stimulus: autoDraw = False
+926.2148 	EXP 	read_stimulus: image = u'numbers/4.png'
+926.2148 	EXP 	read_black_square: autoDraw = True
+926.2148 	EXP 	read_stimulus: autoDraw = True
+927.0451 	DATA 	Keypress: 4
+927.0458 	EXP 	New trial (rep=0, index=7): {u'readFile': u'numbers/444.png', u'read_corrAns': 4L}
+927.0782 	EXP 	read_black_square: autoDraw = False
+927.0782 	EXP 	read_stimulus: autoDraw = False
+927.0782 	EXP 	read_stimulus: image = u'numbers/444.png'
+927.0782 	EXP 	read_black_square: autoDraw = True
+927.0782 	EXP 	read_stimulus: autoDraw = True
+928.2164 	DATA 	Keypress: 3
+928.2171 	EXP 	New trial (rep=0, index=8): {u'readFile': u'numbers/2.png', u'read_corrAns': 2L}
+928.2629 	EXP 	read_black_square: autoDraw = False
+928.2629 	EXP 	read_stimulus: autoDraw = False
+928.2629 	EXP 	read_stimulus: image = u'numbers/2.png'
+928.2629 	EXP 	read_black_square: autoDraw = True
+928.2629 	EXP 	read_stimulus: autoDraw = True
+929.4509 	DATA 	Keypress: 2
+929.4516 	EXP 	New trial (rep=0, index=9): {u'readFile': u'numbers/1.png', u'read_corrAns': 1L}
+929.4975 	EXP 	read_black_square: autoDraw = False
+929.4975 	EXP 	read_stimulus: autoDraw = False
+929.4975 	EXP 	read_stimulus: image = u'numbers/1.png'
+929.4975 	EXP 	read_black_square: autoDraw = True
+929.4975 	EXP 	read_stimulus: autoDraw = True
+930.4042 	DATA 	Keypress: 1
+930.4350 	EXP 	read_black_square: autoDraw = False
+930.4350 	EXP 	read_stimulus: autoDraw = False
+930.4350 	EXP 	inter_instr_text: autoDraw = True
+935.4350 	DATA 	Keypress: space
+935.4460 	EXP 	Imported conditions/interference_conditions.xlsx as conditions, 10 conditions, 2 params
+935.4463 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+935.4467 	EXP 	New trial (rep=0, index=0): {u'inter_corrAns': 3L, u'interFile': u'numbers/333.png'}
+935.4980 	EXP 	inter_instr_text: autoDraw = False
+935.4980 	EXP 	inter_stimulus: image = u'numbers/333.png'
+935.4980 	EXP 	inter_black_square: autoDraw = True
+935.4980 	EXP 	inter_stimulus: autoDraw = True
+936.6232 	DATA 	Keypress: 3
+936.6241 	EXP 	New trial (rep=0, index=1): {u'inter_corrAns': 4L, u'interFile': u'numbers/4444.png'}
+936.6697 	EXP 	inter_black_square: autoDraw = False
+936.6697 	EXP 	inter_stimulus: autoDraw = False
+936.6697 	EXP 	inter_stimulus: image = u'numbers/4444.png'
+936.6697 	EXP 	inter_black_square: autoDraw = True
+936.6697 	EXP 	inter_stimulus: autoDraw = True
+937.6679 	DATA 	Keypress: 4
+937.6686 	EXP 	New trial (rep=0, index=2): {u'inter_corrAns': 1L, u'interFile': u'numbers/1.png'}
+937.7149 	EXP 	inter_black_square: autoDraw = False
+937.7149 	EXP 	inter_stimulus: autoDraw = False
+937.7149 	EXP 	inter_stimulus: image = u'numbers/1.png'
+937.7149 	EXP 	inter_black_square: autoDraw = True
+937.7149 	EXP 	inter_stimulus: autoDraw = True
+938.6214 	DATA 	Keypress: 1
+938.6221 	EXP 	New trial (rep=0, index=3): {u'inter_corrAns': 2L, u'interFile': u'numbers/44.png'}
+938.6381 	EXP 	inter_black_square: autoDraw = False
+938.6381 	EXP 	inter_stimulus: autoDraw = False
+938.6381 	EXP 	inter_stimulus: image = u'numbers/44.png'
+938.6381 	EXP 	inter_black_square: autoDraw = True
+938.6381 	EXP 	inter_stimulus: autoDraw = True
+939.4499 	DATA 	Keypress: 2
+939.4506 	EXP 	New trial (rep=0, index=4): {u'inter_corrAns': 3L, u'interFile': u'numbers/444.png'}
+939.4964 	EXP 	inter_black_square: autoDraw = False
+939.4964 	EXP 	inter_stimulus: autoDraw = False
+939.4964 	EXP 	inter_stimulus: image = u'numbers/444.png'
+939.4964 	EXP 	inter_black_square: autoDraw = True
+939.4964 	EXP 	inter_stimulus: autoDraw = True
+940.4340 	DATA 	Keypress: 3
+940.4347 	EXP 	New trial (rep=0, index=5): {u'inter_corrAns': 1L, u'interFile': u'numbers/3.png'}
+940.4806 	EXP 	inter_black_square: autoDraw = False
+940.4806 	EXP 	inter_stimulus: autoDraw = False
+940.4806 	EXP 	inter_stimulus: image = u'numbers/3.png'
+940.4806 	EXP 	inter_black_square: autoDraw = True
+940.4806 	EXP 	inter_stimulus: autoDraw = True
+941.7938 	DATA 	Keypress: 1
+941.7949 	EXP 	New trial (rep=0, index=6): {u'inter_corrAns': 2L, u'interFile': u'numbers/33.png'}
+941.8398 	EXP 	inter_black_square: autoDraw = False
+941.8398 	EXP 	inter_stimulus: autoDraw = False
+941.8398 	EXP 	inter_stimulus: image = u'numbers/33.png'
+941.8398 	EXP 	inter_black_square: autoDraw = True
+941.8398 	EXP 	inter_stimulus: autoDraw = True
+942.6381 	DATA 	Keypress: 2
+942.6389 	EXP 	New trial (rep=0, index=7): {u'inter_corrAns': 1L, u'interFile': u'numbers/2.png'}
+942.6846 	EXP 	inter_black_square: autoDraw = False
+942.6846 	EXP 	inter_stimulus: autoDraw = False
+942.6846 	EXP 	inter_stimulus: image = u'numbers/2.png'
+942.6846 	EXP 	inter_black_square: autoDraw = True
+942.6846 	EXP 	inter_stimulus: autoDraw = True
+943.9978 	DATA 	Keypress: 1
+943.9985 	EXP 	New trial (rep=0, index=8): {u'inter_corrAns': 1L, u'interFile': u'numbers/4.png'}
+944.0444 	EXP 	inter_black_square: autoDraw = False
+944.0444 	EXP 	inter_stimulus: autoDraw = False
+944.0444 	EXP 	inter_stimulus: image = u'numbers/4.png'
+944.0444 	EXP 	inter_black_square: autoDraw = True
+944.0444 	EXP 	inter_stimulus: autoDraw = True
+945.4196 	DATA 	Keypress: 1
+945.4203 	EXP 	New trial (rep=0, index=9): {u'inter_corrAns': 2L, u'interFile': u'numbers/22.png'}
+945.4662 	EXP 	inter_black_square: autoDraw = False
+945.4662 	EXP 	inter_stimulus: autoDraw = False
+945.4662 	EXP 	inter_stimulus: image = u'numbers/22.png'
+945.4662 	EXP 	inter_black_square: autoDraw = True
+945.4662 	EXP 	inter_stimulus: autoDraw = True
+946.1856 	DATA 	Keypress: 2
+946.1863 	EXP 	New trial (rep=1, index=0): None
+946.2164 	EXP 	inter_black_square: autoDraw = False
+946.2164 	EXP 	inter_stimulus: autoDraw = False
+946.2164 	EXP 	count_instr_text: autoDraw = True
+951.0577 	DATA 	Keypress: space
+951.0682 	EXP 	Imported conditions/count_conditions.xlsx as conditions, 5 conditions, 2 params
+951.0686 	EXP 	Created sequence: random, trialTypes=5, nReps=3, seed=None
+951.0689 	EXP 	New trial (rep=0, index=0): {u'countFile': u'dots/dot_0.png', u'count_corrAns': u'tab'}
+951.1043 	EXP 	count_instr_text: autoDraw = False
+951.1043 	EXP 	count_stimulus: image = u'dots/dot_0.png'
+951.1043 	EXP 	count_black_square: autoDraw = True
+951.1043 	EXP 	count_stimulus: autoDraw = True
+952.4481 	DATA 	Keypress: tab
+952.4493 	EXP 	New trial (rep=0, index=1): {u'countFile': u'dots/dot_3.png', u'count_corrAns': 3L}
+952.4943 	EXP 	count_black_square: autoDraw = False
+952.4943 	EXP 	count_stimulus: autoDraw = False
+952.4943 	EXP 	count_stimulus: image = u'dots/dot_3.png'
+952.4943 	EXP 	count_black_square: autoDraw = True
+952.4943 	EXP 	count_stimulus: autoDraw = True
+953.3237 	DATA 	Keypress: 3
+953.3244 	EXP 	New trial (rep=0, index=2): {u'countFile': u'dots/dot_1.png', u'count_corrAns': 1L}
+953.3701 	EXP 	count_black_square: autoDraw = False
+953.3701 	EXP 	count_stimulus: autoDraw = False
+953.3701 	EXP 	count_stimulus: image = u'dots/dot_1.png'
+953.3701 	EXP 	count_black_square: autoDraw = True
+953.3701 	EXP 	count_stimulus: autoDraw = True
+954.1204 	DATA 	Keypress: 1
+954.1211 	EXP 	New trial (rep=0, index=3): {u'countFile': u'dots/dot_2.png', u'count_corrAns': 2L}
+954.1673 	EXP 	count_black_square: autoDraw = False
+954.1673 	EXP 	count_stimulus: autoDraw = False
+954.1673 	EXP 	count_stimulus: image = u'dots/dot_2.png'
+954.1673 	EXP 	count_black_square: autoDraw = True
+954.1673 	EXP 	count_stimulus: autoDraw = True
+954.8708 	DATA 	Keypress: 2
+954.8715 	EXP 	New trial (rep=0, index=4): {u'countFile': u'dots/dot_4.png', u'count_corrAns': 4L}
+954.9180 	EXP 	count_black_square: autoDraw = False
+954.9180 	EXP 	count_stimulus: autoDraw = False
+954.9180 	EXP 	count_stimulus: image = u'dots/dot_4.png'
+954.9180 	EXP 	count_black_square: autoDraw = True
+954.9180 	EXP 	count_stimulus: autoDraw = True
+955.9490 	DATA 	Keypress: 4
+955.9497 	EXP 	New trial (rep=1, index=0): {u'countFile': u'dots/dot_3.png', u'count_corrAns': 3L}
+955.9958 	EXP 	count_black_square: autoDraw = False
+955.9958 	EXP 	count_stimulus: autoDraw = False
+955.9958 	EXP 	count_stimulus: image = u'dots/dot_3.png'
+955.9958 	EXP 	count_black_square: autoDraw = True
+955.9958 	EXP 	count_stimulus: autoDraw = True
+957.0058 	DATA 	Keypress: 3
+957.0067 	EXP 	New trial (rep=1, index=1): {u'countFile': u'dots/dot_1.png', u'count_corrAns': 1L}
+957.0389 	EXP 	count_black_square: autoDraw = False
+957.0389 	EXP 	count_stimulus: autoDraw = False
+957.0389 	EXP 	count_stimulus: image = u'dots/dot_1.png'
+957.0389 	EXP 	count_black_square: autoDraw = True
+957.0389 	EXP 	count_stimulus: autoDraw = True
+957.7303 	DATA 	Keypress: 1
+957.7310 	EXP 	New trial (rep=1, index=2): {u'countFile': u'dots/dot_4.png', u'count_corrAns': 4L}
+957.7768 	EXP 	count_black_square: autoDraw = False
+957.7768 	EXP 	count_stimulus: autoDraw = False
+957.7768 	EXP 	count_stimulus: image = u'dots/dot_4.png'
+957.7768 	EXP 	count_black_square: autoDraw = True
+957.7768 	EXP 	count_stimulus: autoDraw = True
+958.7147 	DATA 	Keypress: 4
+958.7154 	EXP 	New trial (rep=1, index=3): {u'countFile': u'dots/dot_0.png', u'count_corrAns': u'tab'}
+958.7614 	EXP 	count_black_square: autoDraw = False
+958.7614 	EXP 	count_stimulus: autoDraw = False
+958.7614 	EXP 	count_stimulus: image = u'dots/dot_0.png'
+958.7614 	EXP 	count_black_square: autoDraw = True
+958.7614 	EXP 	count_stimulus: autoDraw = True
+959.6058 	DATA 	Keypress: tab
+959.6065 	EXP 	New trial (rep=1, index=4): {u'countFile': u'dots/dot_2.png', u'count_corrAns': 2L}
+959.6522 	EXP 	count_black_square: autoDraw = False
+959.6522 	EXP 	count_stimulus: autoDraw = False
+959.6522 	EXP 	count_stimulus: image = u'dots/dot_2.png'
+959.6522 	EXP 	count_black_square: autoDraw = True
+959.6522 	EXP 	count_stimulus: autoDraw = True
+960.4342 	DATA 	Keypress: 2
+960.4351 	EXP 	New trial (rep=2, index=0): {u'countFile': u'dots/dot_3.png', u'count_corrAns': 3L}
+960.4805 	EXP 	count_black_square: autoDraw = False
+960.4805 	EXP 	count_stimulus: autoDraw = False
+960.4805 	EXP 	count_stimulus: image = u'dots/dot_3.png'
+960.4805 	EXP 	count_black_square: autoDraw = True
+960.4805 	EXP 	count_stimulus: autoDraw = True
+961.3561 	DATA 	Keypress: 3
+961.3570 	EXP 	New trial (rep=2, index=1): {u'countFile': u'dots/dot_4.png', u'count_corrAns': 4L}
+961.4026 	EXP 	count_black_square: autoDraw = False
+961.4026 	EXP 	count_stimulus: autoDraw = False
+961.4026 	EXP 	count_stimulus: image = u'dots/dot_4.png'
+961.4026 	EXP 	count_black_square: autoDraw = True
+961.4026 	EXP 	count_stimulus: autoDraw = True
+962.3604 	DATA 	Keypress: 4
+962.3612 	EXP 	New trial (rep=2, index=2): {u'countFile': u'dots/dot_0.png', u'count_corrAns': u'tab'}
+962.3936 	EXP 	count_black_square: autoDraw = False
+962.3936 	EXP 	count_stimulus: autoDraw = False
+962.3936 	EXP 	count_stimulus: image = u'dots/dot_0.png'
+962.3936 	EXP 	count_black_square: autoDraw = True
+962.3936 	EXP 	count_stimulus: autoDraw = True
+963.3237 	DATA 	Keypress: tab
+963.3244 	EXP 	New trial (rep=2, index=3): {u'countFile': u'dots/dot_2.png', u'count_corrAns': 2L}
+963.3701 	EXP 	count_black_square: autoDraw = False
+963.3701 	EXP 	count_stimulus: autoDraw = False
+963.3701 	EXP 	count_stimulus: image = u'dots/dot_2.png'
+963.3701 	EXP 	count_black_square: autoDraw = True
+963.3701 	EXP 	count_stimulus: autoDraw = True
+964.1209 	DATA 	Keypress: 2
+964.1223 	EXP 	New trial (rep=2, index=4): {u'countFile': u'dots/dot_1.png', u'count_corrAns': 1L}
+964.1674 	EXP 	count_black_square: autoDraw = False
+964.1674 	EXP 	count_stimulus: autoDraw = False
+964.1674 	EXP 	count_stimulus: image = u'dots/dot_1.png'
+964.1674 	EXP 	count_black_square: autoDraw = True
+964.1674 	EXP 	count_stimulus: autoDraw = True
+965.1363 	DATA 	Keypress: 1
+965.1677 	EXP 	count_black_square: autoDraw = False
+965.1677 	EXP 	count_stimulus: autoDraw = False
+965.1677 	EXP 	read_instr_text: autoDraw = True
+970.7760 	DATA 	Keypress: space
+970.7868 	EXP 	Imported conditions/read_conditions.xlsx as conditions, 10 conditions, 2 params
+970.7872 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+970.7876 	EXP 	New trial (rep=0, index=0): {u'readFile': u'numbers/44.png', u'read_corrAns': 4L}
+970.8228 	EXP 	read_instr_text: autoDraw = False
+970.8228 	EXP 	read_stimulus: image = u'numbers/44.png'
+970.8228 	EXP 	read_black_square: autoDraw = True
+970.8228 	EXP 	read_stimulus: autoDraw = True
+971.9537 	DATA 	Keypress: 4
+971.9546 	EXP 	New trial (rep=0, index=1): {u'readFile': u'numbers/2.png', u'read_corrAns': 2L}
+971.9870 	EXP 	read_black_square: autoDraw = False
+971.9870 	EXP 	read_stimulus: autoDraw = False
+971.9870 	EXP 	read_stimulus: image = u'numbers/2.png'
+971.9870 	EXP 	read_black_square: autoDraw = True
+971.9870 	EXP 	read_stimulus: autoDraw = True
+972.9334 	DATA 	Keypress: 2
+972.9648 	EXP 	New trial (rep=0, index=2): {u'readFile': u'numbers/333.png', u'read_corrAns': 3L}
+973.0109 	EXP 	read_black_square: autoDraw = False
+973.0109 	EXP 	read_stimulus: autoDraw = False
+973.0109 	EXP 	read_stimulus: image = u'numbers/333.png'
+973.0109 	EXP 	read_black_square: autoDraw = True
+973.0109 	EXP 	read_stimulus: autoDraw = True
+973.8861 	DATA 	Keypress: 3
+973.8868 	EXP 	New trial (rep=0, index=3): {u'readFile': u'numbers/4.png', u'read_corrAns': 4L}
+973.9328 	EXP 	read_black_square: autoDraw = False
+973.9328 	EXP 	read_stimulus: autoDraw = False
+973.9328 	EXP 	read_stimulus: image = u'numbers/4.png'
+973.9328 	EXP 	read_black_square: autoDraw = True
+973.9328 	EXP 	read_stimulus: autoDraw = True
+974.9021 	DATA 	Keypress: 4
+974.9028 	EXP 	New trial (rep=0, index=4): {u'readFile': u'numbers/3.png', u'read_corrAns': 3L}
+974.9487 	EXP 	read_black_square: autoDraw = False
+974.9487 	EXP 	read_stimulus: autoDraw = False
+974.9487 	EXP 	read_stimulus: image = u'numbers/3.png'
+974.9487 	EXP 	read_black_square: autoDraw = True
+974.9487 	EXP 	read_stimulus: autoDraw = True
+975.8239 	DATA 	Keypress: 3
+975.8246 	EXP 	New trial (rep=0, index=5): {u'readFile': u'numbers/33.png', u'read_corrAns': 3L}
+975.8705 	EXP 	read_black_square: autoDraw = False
+975.8705 	EXP 	read_stimulus: autoDraw = False
+975.8705 	EXP 	read_stimulus: image = u'numbers/33.png'
+975.8705 	EXP 	read_black_square: autoDraw = True
+975.8705 	EXP 	read_stimulus: autoDraw = True
+976.9556 	DATA 	Keypress: 3
+976.9563 	EXP 	New trial (rep=0, index=6): {u'readFile': u'numbers/1.png', u'read_corrAns': 1L}
+976.9886 	EXP 	read_black_square: autoDraw = False
+976.9886 	EXP 	read_stimulus: autoDraw = False
+976.9886 	EXP 	read_stimulus: image = u'numbers/1.png'
+976.9886 	EXP 	read_black_square: autoDraw = True
+976.9886 	EXP 	read_stimulus: autoDraw = True
+977.7780 	DATA 	Keypress: 1
+977.7786 	EXP 	New trial (rep=0, index=7): {u'readFile': u'numbers/4444.png', u'read_corrAns': 4L}
+977.8245 	EXP 	read_black_square: autoDraw = False
+977.8245 	EXP 	read_stimulus: autoDraw = False
+977.8245 	EXP 	read_stimulus: image = u'numbers/4444.png'
+977.8245 	EXP 	read_black_square: autoDraw = True
+977.8245 	EXP 	read_stimulus: autoDraw = True
+978.7622 	DATA 	Keypress: 4
+978.7629 	EXP 	New trial (rep=0, index=8): {u'readFile': u'numbers/22.png', u'read_corrAns': 2L}
+978.8088 	EXP 	read_black_square: autoDraw = False
+978.8088 	EXP 	read_stimulus: autoDraw = False
+978.8088 	EXP 	read_stimulus: image = u'numbers/22.png'
+978.8088 	EXP 	read_black_square: autoDraw = True
+978.8088 	EXP 	read_stimulus: autoDraw = True
+979.6532 	DATA 	Keypress: 2
+979.6539 	EXP 	New trial (rep=0, index=9): {u'readFile': u'numbers/444.png', u'read_corrAns': 4L}
+979.6997 	EXP 	read_black_square: autoDraw = False
+979.6997 	EXP 	read_stimulus: autoDraw = False
+979.6997 	EXP 	read_stimulus: image = u'numbers/444.png'
+979.6997 	EXP 	read_black_square: autoDraw = True
+979.6997 	EXP 	read_stimulus: autoDraw = True
+980.7311 	DATA 	Keypress: 4
+980.7623 	EXP 	read_black_square: autoDraw = False
+980.7623 	EXP 	read_stimulus: autoDraw = False
+980.7623 	EXP 	inter_instr_text: autoDraw = True
+985.8701 	DATA 	Keypress: space
+985.8807 	EXP 	Imported conditions/interference_conditions.xlsx as conditions, 10 conditions, 2 params
+985.8811 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+985.8814 	EXP 	New trial (rep=0, index=0): {u'inter_corrAns': 2L, u'interFile': u'numbers/33.png'}
+985.9174 	EXP 	inter_instr_text: autoDraw = False
+985.9174 	EXP 	inter_stimulus: image = u'numbers/33.png'
+985.9174 	EXP 	inter_black_square: autoDraw = True
+985.9174 	EXP 	inter_stimulus: autoDraw = True
+987.1550 	DATA 	Keypress: 2
+987.1561 	EXP 	New trial (rep=0, index=1): {u'inter_corrAns': 1L, u'interFile': u'numbers/4.png'}
+987.1887 	EXP 	inter_black_square: autoDraw = False
+987.1887 	EXP 	inter_stimulus: autoDraw = False
+987.1887 	EXP 	inter_stimulus: image = u'numbers/4.png'
+987.1887 	EXP 	inter_black_square: autoDraw = True
+987.1887 	EXP 	inter_stimulus: autoDraw = True
+988.1997 	DATA 	Keypress: 1
+988.2004 	EXP 	New trial (rep=0, index=2): {u'inter_corrAns': 1L, u'interFile': u'numbers/3.png'}
+988.2462 	EXP 	inter_black_square: autoDraw = False
+988.2462 	EXP 	inter_stimulus: autoDraw = False
+988.2462 	EXP 	inter_stimulus: image = u'numbers/3.png'
+988.2462 	EXP 	inter_black_square: autoDraw = True
+988.2462 	EXP 	inter_stimulus: autoDraw = True
+989.2468 	DATA 	Keypress: 1
+989.2482 	EXP 	New trial (rep=0, index=3): {u'inter_corrAns': 3L, u'interFile': u'numbers/444.png'}
+989.2930 	EXP 	inter_black_square: autoDraw = False
+989.2930 	EXP 	inter_stimulus: autoDraw = False
+989.2930 	EXP 	inter_stimulus: image = u'numbers/444.png'
+989.2930 	EXP 	inter_black_square: autoDraw = True
+989.2930 	EXP 	inter_stimulus: autoDraw = True
+990.1708 	DATA 	Keypress: 3
+990.1715 	EXP 	New trial (rep=0, index=4): {u'inter_corrAns': 4L, u'interFile': u'numbers/4444.png'}
+990.2152 	EXP 	inter_black_square: autoDraw = False
+990.2152 	EXP 	inter_stimulus: autoDraw = False
+990.2152 	EXP 	inter_stimulus: image = u'numbers/4444.png'
+990.2152 	EXP 	inter_black_square: autoDraw = True
+990.2152 	EXP 	inter_stimulus: autoDraw = True
+991.2155 	DATA 	Keypress: 4
+991.2162 	EXP 	New trial (rep=0, index=5): {u'inter_corrAns': 2L, u'interFile': u'numbers/22.png'}
+991.2623 	EXP 	inter_black_square: autoDraw = False
+991.2623 	EXP 	inter_stimulus: autoDraw = False
+991.2623 	EXP 	inter_stimulus: image = u'numbers/22.png'
+991.2623 	EXP 	inter_black_square: autoDraw = True
+991.2623 	EXP 	inter_stimulus: autoDraw = True
+992.0557 	DATA 	Keypress: 2
+992.0565 	EXP 	New trial (rep=0, index=6): {u'inter_corrAns': 2L, u'interFile': u'numbers/44.png'}
+992.0896 	EXP 	inter_black_square: autoDraw = False
+992.0896 	EXP 	inter_stimulus: autoDraw = False
+992.0896 	EXP 	inter_stimulus: image = u'numbers/44.png'
+992.0896 	EXP 	inter_black_square: autoDraw = True
+992.0896 	EXP 	inter_stimulus: autoDraw = True
+993.0014 	DATA 	Keypress: 2
+993.0021 	EXP 	New trial (rep=0, index=7): {u'inter_corrAns': 1L, u'interFile': u'numbers/1.png'}
+993.0344 	EXP 	inter_black_square: autoDraw = False
+993.0344 	EXP 	inter_stimulus: autoDraw = False
+993.0344 	EXP 	inter_stimulus: image = u'numbers/1.png'
+993.0344 	EXP 	inter_black_square: autoDraw = True
+993.0344 	EXP 	inter_stimulus: autoDraw = True
+993.7792 	DATA 	Keypress: 1
+993.7799 	EXP 	New trial (rep=0, index=8): {u'inter_corrAns': 1L, u'interFile': u'numbers/2.png'}
+993.8259 	EXP 	inter_black_square: autoDraw = False
+993.8259 	EXP 	inter_stimulus: autoDraw = False
+993.8259 	EXP 	inter_stimulus: image = u'numbers/2.png'
+993.8259 	EXP 	inter_black_square: autoDraw = True
+993.8259 	EXP 	inter_stimulus: autoDraw = True
+994.7639 	DATA 	Keypress: 1
+994.7646 	EXP 	New trial (rep=0, index=9): {u'inter_corrAns': 3L, u'interFile': u'numbers/333.png'}
+994.8102 	EXP 	inter_black_square: autoDraw = False
+994.8102 	EXP 	inter_stimulus: autoDraw = False
+994.8102 	EXP 	inter_stimulus: image = u'numbers/333.png'
+994.8102 	EXP 	inter_black_square: autoDraw = True
+994.8102 	EXP 	inter_stimulus: autoDraw = True
+995.6545 	DATA 	Keypress: 3
+996.0013 	EXP 	window1: mouseVisible = True

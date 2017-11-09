@@ -1,0 +1,528 @@
+21.0551 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc347687b90>, name='window1', pos=[0, 0], screen=0, size=array([1366,  768]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.0552 	EXP 	window1: recordFrameIntervals = False
+21.2375 	EXP 	window1: recordFrameIntervals = True
+21.4209 	EXP 	window1: recordFrameIntervals = False
+21.5006 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.085, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+21.5016 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc3501c90d0>: vertices = array([[-1.5,  1.5],
+       [ 1.5,  1.5],
+       [ 1.5, -1.5],
+       [-1.5, -1.5]])
+21.5034 	EXP 	Created cue = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='cue', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units='cm', vertices=ndarray(...), win=Window(...))
+21.5075 	EXP 	Created stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.25,  0.5 ]), texRes=128, units=u'norm', win=Window(...))
+21.5103 	EXP 	text: autoDraw = True
+39.2633 	DATA 	Keypress: tab
+39.2688 	EXP 	Imported condtitions.xlsx as conditions, 2 conditions, 2 params
+39.2692 	EXP 	Created sequence: random, trialTypes=2, nReps=30, seed=None
+39.2696 	EXP 	New trial (rep=0, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+39.3579 	EXP 	text: autoDraw = False
+39.3579 	EXP 	stimulus: image = u'x.png'
+39.3579 	EXP 	cue: autoDraw = True
+39.4297 	EXP 	cue: autoDraw = False
+40.9457 	EXP 	stimulus: autoDraw = True
+41.0790 	EXP 	stimulus: autoDraw = False
+41.3458 	DATA 	Keypress: tab
+43.5790 	EXP 	New trial (rep=0, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+43.5945 	EXP 	cue: autoDraw = False
+43.5945 	EXP 	stimulus: autoDraw = False
+43.5945 	EXP 	stimulus: image = u'+.png'
+43.5945 	EXP 	cue: autoDraw = True
+43.7445 	EXP 	cue: autoDraw = False
+45.2606 	EXP 	stimulus: autoDraw = True
+45.3938 	EXP 	stimulus: autoDraw = False
+45.7109 	DATA 	Keypress: tab
+47.8770 	EXP 	New trial (rep=1, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+47.8927 	EXP 	cue: autoDraw = False
+47.8927 	EXP 	stimulus: autoDraw = False
+47.8927 	EXP 	stimulus: image = u'+.png'
+47.8927 	EXP 	cue: autoDraw = True
+48.0427 	EXP 	cue: autoDraw = False
+49.5587 	EXP 	stimulus: autoDraw = True
+49.6920 	EXP 	stimulus: autoDraw = False
+52.1750 	EXP 	New trial (rep=1, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+52.2611 	EXP 	cue: autoDraw = False
+52.2611 	EXP 	stimulus: autoDraw = False
+52.2611 	EXP 	stimulus: image = u'x.png'
+52.2611 	EXP 	cue: autoDraw = True
+52.3408 	EXP 	cue: autoDraw = False
+53.8568 	EXP 	stimulus: autoDraw = True
+53.9901 	EXP 	stimulus: autoDraw = False
+54.2736 	DATA 	Keypress: tab
+54.4901 	DATA 	Keypress: tab
+56.4734 	EXP 	New trial (rep=2, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+56.4890 	EXP 	cue: autoDraw = False
+56.4890 	EXP 	stimulus: autoDraw = False
+56.4890 	EXP 	stimulus: image = u'+.png'
+56.4890 	EXP 	cue: autoDraw = True
+56.6390 	EXP 	cue: autoDraw = False
+58.1550 	EXP 	stimulus: autoDraw = True
+58.2883 	EXP 	stimulus: autoDraw = False
+60.7713 	EXP 	New trial (rep=2, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+60.8555 	EXP 	cue: autoDraw = False
+60.8555 	EXP 	stimulus: autoDraw = False
+60.8555 	EXP 	stimulus: image = u'x.png'
+60.8555 	EXP 	cue: autoDraw = True
+60.9371 	EXP 	cue: autoDraw = False
+62.4532 	EXP 	stimulus: autoDraw = True
+62.5865 	EXP 	stimulus: autoDraw = False
+62.8199 	DATA 	Keypress: tab
+65.0697 	EXP 	New trial (rep=3, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+65.1509 	EXP 	cue: autoDraw = False
+65.1509 	EXP 	stimulus: autoDraw = False
+65.1509 	EXP 	stimulus: image = u'x.png'
+65.1509 	EXP 	cue: autoDraw = True
+65.2354 	EXP 	cue: autoDraw = False
+66.7514 	EXP 	stimulus: autoDraw = True
+66.8846 	EXP 	stimulus: autoDraw = False
+67.0352 	DATA 	Keypress: tab
+69.3678 	EXP 	New trial (rep=3, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+69.3836 	EXP 	cue: autoDraw = False
+69.3836 	EXP 	stimulus: autoDraw = False
+69.3836 	EXP 	stimulus: image = u'+.png'
+69.3836 	EXP 	cue: autoDraw = True
+69.5335 	EXP 	cue: autoDraw = False
+71.0496 	EXP 	stimulus: autoDraw = True
+71.1828 	EXP 	stimulus: autoDraw = False
+73.6659 	EXP 	New trial (rep=4, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+73.7481 	EXP 	cue: autoDraw = False
+73.7481 	EXP 	stimulus: autoDraw = False
+73.7481 	EXP 	stimulus: image = u'x.png'
+73.7481 	EXP 	cue: autoDraw = True
+73.8317 	EXP 	cue: autoDraw = False
+75.3477 	EXP 	stimulus: autoDraw = True
+75.4810 	EXP 	stimulus: autoDraw = False
+75.7144 	DATA 	Keypress: tab
+77.9643 	EXP 	New trial (rep=4, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+77.9799 	EXP 	cue: autoDraw = False
+77.9799 	EXP 	stimulus: autoDraw = False
+77.9799 	EXP 	stimulus: image = u'+.png'
+77.9799 	EXP 	cue: autoDraw = True
+78.1299 	EXP 	cue: autoDraw = False
+79.6459 	EXP 	stimulus: autoDraw = True
+79.7791 	EXP 	stimulus: autoDraw = False
+82.2623 	EXP 	New trial (rep=5, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+82.2781 	EXP 	cue: autoDraw = False
+82.2781 	EXP 	stimulus: autoDraw = False
+82.2781 	EXP 	stimulus: image = u'+.png'
+82.2781 	EXP 	cue: autoDraw = True
+82.4280 	EXP 	cue: autoDraw = False
+83.9440 	EXP 	stimulus: autoDraw = True
+84.0939 	EXP 	stimulus: autoDraw = False
+86.5604 	EXP 	New trial (rep=5, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+86.6482 	EXP 	cue: autoDraw = False
+86.6482 	EXP 	stimulus: autoDraw = False
+86.6482 	EXP 	stimulus: image = u'x.png'
+86.6482 	EXP 	cue: autoDraw = True
+86.7262 	EXP 	cue: autoDraw = False
+88.2422 	EXP 	stimulus: autoDraw = True
+88.3755 	EXP 	stimulus: autoDraw = False
+88.5090 	DATA 	Keypress: tab
+90.8587 	EXP 	New trial (rep=6, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+90.9348 	EXP 	cue: autoDraw = False
+90.9348 	EXP 	stimulus: autoDraw = False
+90.9348 	EXP 	stimulus: image = u'x.png'
+90.9348 	EXP 	cue: autoDraw = True
+91.0410 	EXP 	cue: autoDraw = False
+92.5404 	EXP 	stimulus: autoDraw = True
+92.6737 	EXP 	stimulus: autoDraw = False
+92.8238 	DATA 	Keypress: tab
+95.1569 	EXP 	New trial (rep=6, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+95.1726 	EXP 	cue: autoDraw = False
+95.1726 	EXP 	stimulus: autoDraw = False
+95.1726 	EXP 	stimulus: image = u'+.png'
+95.1726 	EXP 	cue: autoDraw = True
+95.3225 	EXP 	cue: autoDraw = False
+96.8386 	EXP 	stimulus: autoDraw = True
+96.9718 	EXP 	stimulus: autoDraw = False
+99.4549 	EXP 	New trial (rep=7, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+99.5396 	EXP 	cue: autoDraw = False
+99.5396 	EXP 	stimulus: autoDraw = False
+99.5396 	EXP 	stimulus: image = u'x.png'
+99.5396 	EXP 	cue: autoDraw = True
+99.6207 	EXP 	cue: autoDraw = False
+101.1534 	EXP 	stimulus: autoDraw = True
+101.2701 	EXP 	stimulus: autoDraw = False
+101.4534 	DATA 	Keypress: tab
+103.7533 	EXP 	New trial (rep=7, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+103.7689 	EXP 	cue: autoDraw = False
+103.7689 	EXP 	stimulus: autoDraw = False
+103.7689 	EXP 	stimulus: image = u'+.png'
+103.7689 	EXP 	cue: autoDraw = True
+103.9189 	EXP 	cue: autoDraw = False
+105.4349 	EXP 	stimulus: autoDraw = True
+105.5681 	EXP 	stimulus: autoDraw = False
+105.6850 	DATA 	Keypress: tab
+108.0680 	EXP 	New trial (rep=8, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+108.0838 	EXP 	cue: autoDraw = False
+108.0838 	EXP 	stimulus: autoDraw = False
+108.0838 	EXP 	stimulus: image = u'+.png'
+108.0838 	EXP 	cue: autoDraw = True
+108.2337 	EXP 	cue: autoDraw = False
+109.7497 	EXP 	stimulus: autoDraw = True
+109.8829 	EXP 	stimulus: autoDraw = False
+112.3661 	EXP 	New trial (rep=8, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+112.4528 	EXP 	cue: autoDraw = False
+112.4528 	EXP 	stimulus: autoDraw = False
+112.4528 	EXP 	stimulus: image = u'x.png'
+112.4528 	EXP 	cue: autoDraw = True
+112.5319 	EXP 	cue: autoDraw = False
+114.0479 	EXP 	stimulus: autoDraw = True
+114.1811 	EXP 	stimulus: autoDraw = False
+114.3480 	DATA 	Keypress: tab
+116.6645 	EXP 	New trial (rep=9, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+116.6801 	EXP 	cue: autoDraw = False
+116.6801 	EXP 	stimulus: autoDraw = False
+116.6801 	EXP 	stimulus: image = u'+.png'
+116.6801 	EXP 	cue: autoDraw = True
+116.8301 	EXP 	cue: autoDraw = False
+118.3461 	EXP 	stimulus: autoDraw = True
+118.4793 	EXP 	stimulus: autoDraw = False
+120.9623 	EXP 	New trial (rep=9, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+121.0468 	EXP 	cue: autoDraw = False
+121.0468 	EXP 	stimulus: autoDraw = False
+121.0468 	EXP 	stimulus: image = u'x.png'
+121.0468 	EXP 	cue: autoDraw = True
+121.1282 	EXP 	cue: autoDraw = False
+122.6442 	EXP 	stimulus: autoDraw = True
+122.7775 	EXP 	stimulus: autoDraw = False
+122.9947 	DATA 	Keypress: tab
+125.2608 	EXP 	New trial (rep=10, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+125.3395 	EXP 	cue: autoDraw = False
+125.3395 	EXP 	stimulus: autoDraw = False
+125.3395 	EXP 	stimulus: image = u'x.png'
+125.3395 	EXP 	cue: autoDraw = True
+125.4263 	EXP 	cue: autoDraw = False
+126.9424 	EXP 	stimulus: autoDraw = True
+127.0758 	EXP 	stimulus: autoDraw = False
+127.4090 	DATA 	Keypress: tab
+129.5589 	EXP 	New trial (rep=10, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+129.5745 	EXP 	cue: autoDraw = False
+129.5745 	EXP 	stimulus: autoDraw = False
+129.5745 	EXP 	stimulus: image = u'+.png'
+129.5745 	EXP 	cue: autoDraw = True
+129.7245 	EXP 	cue: autoDraw = False
+131.2405 	EXP 	stimulus: autoDraw = True
+131.3737 	EXP 	stimulus: autoDraw = False
+133.8570 	EXP 	New trial (rep=11, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+133.9387 	EXP 	cue: autoDraw = False
+133.9387 	EXP 	stimulus: autoDraw = False
+133.9387 	EXP 	stimulus: image = u'x.png'
+133.9387 	EXP 	cue: autoDraw = True
+134.0227 	EXP 	cue: autoDraw = False
+135.5387 	EXP 	stimulus: autoDraw = True
+135.6720 	EXP 	stimulus: autoDraw = False
+135.9388 	DATA 	Keypress: tab
+138.1553 	EXP 	New trial (rep=11, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+138.1709 	EXP 	cue: autoDraw = False
+138.1709 	EXP 	stimulus: autoDraw = False
+138.1709 	EXP 	stimulus: image = u'+.png'
+138.1709 	EXP 	cue: autoDraw = True
+138.3209 	EXP 	cue: autoDraw = False
+139.8369 	EXP 	stimulus: autoDraw = True
+139.9701 	EXP 	stimulus: autoDraw = False
+142.4533 	EXP 	New trial (rep=12, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+142.4691 	EXP 	cue: autoDraw = False
+142.4691 	EXP 	stimulus: autoDraw = False
+142.4691 	EXP 	stimulus: image = u'+.png'
+142.4691 	EXP 	cue: autoDraw = True
+142.6190 	EXP 	cue: autoDraw = False
+144.1350 	EXP 	stimulus: autoDraw = True
+144.2683 	EXP 	stimulus: autoDraw = False
+146.7515 	EXP 	New trial (rep=12, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+146.8340 	EXP 	cue: autoDraw = False
+146.8340 	EXP 	stimulus: autoDraw = False
+146.8340 	EXP 	stimulus: image = u'x.png'
+146.8340 	EXP 	cue: autoDraw = True
+146.9172 	EXP 	cue: autoDraw = False
+148.4332 	EXP 	stimulus: autoDraw = True
+148.5832 	EXP 	stimulus: autoDraw = False
+148.6501 	DATA 	Keypress: tab
+151.0498 	EXP 	New trial (rep=13, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+151.0654 	EXP 	cue: autoDraw = False
+151.0654 	EXP 	stimulus: autoDraw = False
+151.0654 	EXP 	stimulus: image = u'+.png'
+151.0654 	EXP 	cue: autoDraw = True
+151.2154 	EXP 	cue: autoDraw = False
+152.7314 	EXP 	stimulus: autoDraw = True
+152.8647 	EXP 	stimulus: autoDraw = False
+155.3479 	EXP 	New trial (rep=13, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+155.4327 	EXP 	cue: autoDraw = False
+155.4327 	EXP 	stimulus: autoDraw = False
+155.4327 	EXP 	stimulus: image = u'x.png'
+155.4327 	EXP 	cue: autoDraw = True
+155.5302 	EXP 	cue: autoDraw = False
+157.0296 	EXP 	stimulus: autoDraw = True
+157.1628 	EXP 	stimulus: autoDraw = False
+157.3296 	DATA 	Keypress: tab
+159.6462 	EXP 	New trial (rep=14, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+159.7270 	EXP 	cue: autoDraw = False
+159.7270 	EXP 	stimulus: autoDraw = False
+159.7270 	EXP 	stimulus: image = u'x.png'
+159.7270 	EXP 	cue: autoDraw = True
+159.8117 	EXP 	cue: autoDraw = False
+161.3278 	EXP 	stimulus: autoDraw = True
+161.4610 	EXP 	stimulus: autoDraw = False
+161.6111 	DATA 	Keypress: tab
+163.9443 	EXP 	New trial (rep=14, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+163.9599 	EXP 	cue: autoDraw = False
+163.9599 	EXP 	stimulus: autoDraw = False
+163.9599 	EXP 	stimulus: image = u'+.png'
+163.9599 	EXP 	cue: autoDraw = True
+164.1099 	EXP 	cue: autoDraw = False
+165.6426 	EXP 	stimulus: autoDraw = True
+165.7591 	EXP 	stimulus: autoDraw = False
+168.2423 	EXP 	New trial (rep=15, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+168.2581 	EXP 	cue: autoDraw = False
+168.2581 	EXP 	stimulus: autoDraw = False
+168.2581 	EXP 	stimulus: image = u'+.png'
+168.2581 	EXP 	cue: autoDraw = True
+168.4081 	EXP 	cue: autoDraw = False
+169.9241 	EXP 	stimulus: autoDraw = True
+170.0573 	EXP 	stimulus: autoDraw = False
+172.5405 	EXP 	New trial (rep=15, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+172.6233 	EXP 	cue: autoDraw = False
+172.6233 	EXP 	stimulus: autoDraw = False
+172.6233 	EXP 	stimulus: image = u'x.png'
+172.6233 	EXP 	cue: autoDraw = True
+172.7061 	EXP 	cue: autoDraw = False
+174.2223 	EXP 	stimulus: autoDraw = True
+174.3555 	EXP 	stimulus: autoDraw = False
+174.5056 	DATA 	Keypress: tab
+176.8388 	EXP 	New trial (rep=16, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+176.9195 	EXP 	cue: autoDraw = False
+176.9195 	EXP 	stimulus: autoDraw = False
+176.9195 	EXP 	stimulus: image = u'x.png'
+176.9195 	EXP 	cue: autoDraw = True
+177.0044 	EXP 	cue: autoDraw = False
+178.5204 	EXP 	stimulus: autoDraw = True
+178.6537 	EXP 	stimulus: autoDraw = False
+178.7871 	DATA 	Keypress: tab
+181.1370 	EXP 	New trial (rep=16, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+181.1527 	EXP 	cue: autoDraw = False
+181.1527 	EXP 	stimulus: autoDraw = False
+181.1527 	EXP 	stimulus: image = u'+.png'
+181.1527 	EXP 	cue: autoDraw = True
+181.3026 	EXP 	cue: autoDraw = False
+182.8184 	EXP 	stimulus: autoDraw = True
+182.9518 	EXP 	stimulus: autoDraw = False
+185.4350 	EXP 	New trial (rep=17, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+185.5142 	EXP 	cue: autoDraw = False
+185.5142 	EXP 	stimulus: autoDraw = False
+185.5142 	EXP 	stimulus: image = u'x.png'
+185.5142 	EXP 	cue: autoDraw = True
+185.6007 	EXP 	cue: autoDraw = False
+187.1167 	EXP 	stimulus: autoDraw = True
+187.2500 	EXP 	stimulus: autoDraw = False
+187.5006 	DATA 	Keypress: tab
+189.7333 	EXP 	New trial (rep=17, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+189.7489 	EXP 	cue: autoDraw = False
+189.7489 	EXP 	stimulus: autoDraw = False
+189.7489 	EXP 	stimulus: image = u'+.png'
+189.7489 	EXP 	cue: autoDraw = True
+189.8989 	EXP 	cue: autoDraw = False
+191.4149 	EXP 	stimulus: autoDraw = True
+191.5482 	EXP 	stimulus: autoDraw = False
+194.0313 	EXP 	New trial (rep=18, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+194.1106 	EXP 	cue: autoDraw = False
+194.1106 	EXP 	stimulus: autoDraw = False
+194.1106 	EXP 	stimulus: image = u'x.png'
+194.1106 	EXP 	cue: autoDraw = True
+194.1970 	EXP 	cue: autoDraw = False
+195.7131 	EXP 	stimulus: autoDraw = True
+195.8463 	EXP 	stimulus: autoDraw = False
+196.0798 	DATA 	Keypress: tab
+198.3296 	EXP 	New trial (rep=18, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+198.3453 	EXP 	cue: autoDraw = False
+198.3453 	EXP 	stimulus: autoDraw = False
+198.3453 	EXP 	stimulus: image = u'+.png'
+198.3453 	EXP 	cue: autoDraw = True
+198.4953 	EXP 	cue: autoDraw = False
+200.0112 	EXP 	stimulus: autoDraw = True
+200.1445 	EXP 	stimulus: autoDraw = False
+202.6277 	EXP 	New trial (rep=19, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+202.7074 	EXP 	cue: autoDraw = False
+202.7074 	EXP 	stimulus: autoDraw = False
+202.7074 	EXP 	stimulus: image = u'x.png'
+202.7074 	EXP 	cue: autoDraw = True
+202.7934 	EXP 	cue: autoDraw = False
+204.3094 	EXP 	stimulus: autoDraw = True
+204.4427 	EXP 	stimulus: autoDraw = False
+204.5762 	DATA 	Keypress: tab
+206.9260 	EXP 	New trial (rep=19, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+206.9416 	EXP 	cue: autoDraw = False
+206.9416 	EXP 	stimulus: autoDraw = False
+206.9416 	EXP 	stimulus: image = u'+.png'
+206.9416 	EXP 	cue: autoDraw = True
+207.0916 	EXP 	cue: autoDraw = False
+208.6076 	EXP 	stimulus: autoDraw = True
+208.7408 	EXP 	stimulus: autoDraw = False
+211.2240 	EXP 	New trial (rep=20, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+211.2398 	EXP 	cue: autoDraw = False
+211.2398 	EXP 	stimulus: autoDraw = False
+211.2398 	EXP 	stimulus: image = u'+.png'
+211.2398 	EXP 	cue: autoDraw = True
+211.3897 	EXP 	cue: autoDraw = False
+212.9057 	EXP 	stimulus: autoDraw = True
+213.0390 	EXP 	stimulus: autoDraw = False
+215.5222 	EXP 	New trial (rep=20, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+215.6042 	EXP 	cue: autoDraw = False
+215.6042 	EXP 	stimulus: autoDraw = False
+215.6042 	EXP 	stimulus: image = u'x.png'
+215.6042 	EXP 	cue: autoDraw = True
+215.6879 	EXP 	cue: autoDraw = False
+217.2039 	EXP 	stimulus: autoDraw = True
+217.3539 	EXP 	stimulus: autoDraw = False
+217.4706 	DATA 	Keypress: tab
+219.8206 	EXP 	New trial (rep=21, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+219.8361 	EXP 	cue: autoDraw = False
+219.8361 	EXP 	stimulus: autoDraw = False
+219.8361 	EXP 	stimulus: image = u'+.png'
+219.8361 	EXP 	cue: autoDraw = True
+219.9861 	EXP 	cue: autoDraw = False
+221.5021 	EXP 	stimulus: autoDraw = True
+221.6355 	EXP 	stimulus: autoDraw = False
+224.1184 	EXP 	New trial (rep=21, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+224.1997 	EXP 	cue: autoDraw = False
+224.1997 	EXP 	stimulus: autoDraw = False
+224.1997 	EXP 	stimulus: image = u'x.png'
+224.1997 	EXP 	cue: autoDraw = True
+224.3009 	EXP 	cue: autoDraw = False
+225.8003 	EXP 	stimulus: autoDraw = True
+225.9335 	EXP 	stimulus: autoDraw = False
+226.1003 	DATA 	Keypress: tab
+228.4168 	EXP 	New trial (rep=22, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+228.4324 	EXP 	cue: autoDraw = False
+228.4324 	EXP 	stimulus: autoDraw = False
+228.4324 	EXP 	stimulus: image = u'+.png'
+228.4324 	EXP 	cue: autoDraw = True
+228.5824 	EXP 	cue: autoDraw = False
+230.0984 	EXP 	stimulus: autoDraw = True
+230.2317 	EXP 	stimulus: autoDraw = False
+232.7148 	EXP 	New trial (rep=22, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+232.8008 	EXP 	cue: autoDraw = False
+232.8008 	EXP 	stimulus: autoDraw = False
+232.8008 	EXP 	stimulus: image = u'x.png'
+232.8008 	EXP 	cue: autoDraw = True
+232.8806 	EXP 	cue: autoDraw = False
+234.4133 	EXP 	stimulus: autoDraw = True
+234.5299 	EXP 	stimulus: autoDraw = False
+234.6633 	DATA 	Keypress: tab
+237.0131 	EXP 	New trial (rep=23, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+237.0877 	EXP 	cue: autoDraw = False
+237.0877 	EXP 	stimulus: autoDraw = False
+237.0877 	EXP 	stimulus: image = u'x.png'
+237.0877 	EXP 	cue: autoDraw = True
+237.1787 	EXP 	cue: autoDraw = False
+238.6948 	EXP 	stimulus: autoDraw = True
+238.8280 	EXP 	stimulus: autoDraw = False
+238.9615 	DATA 	Keypress: tab
+241.3113 	EXP 	New trial (rep=23, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+241.3270 	EXP 	cue: autoDraw = False
+241.3270 	EXP 	stimulus: autoDraw = False
+241.3270 	EXP 	stimulus: image = u'+.png'
+241.3270 	EXP 	cue: autoDraw = True
+241.4769 	EXP 	cue: autoDraw = False
+242.9929 	EXP 	stimulus: autoDraw = True
+243.1262 	EXP 	stimulus: autoDraw = False
+245.6093 	EXP 	New trial (rep=24, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+245.6251 	EXP 	cue: autoDraw = False
+245.6251 	EXP 	stimulus: autoDraw = False
+245.6251 	EXP 	stimulus: image = u'+.png'
+245.6251 	EXP 	cue: autoDraw = True
+245.7751 	EXP 	cue: autoDraw = False
+247.2911 	EXP 	stimulus: autoDraw = True
+247.4244 	EXP 	stimulus: autoDraw = False
+249.9077 	EXP 	New trial (rep=24, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+249.9912 	EXP 	cue: autoDraw = False
+249.9912 	EXP 	stimulus: autoDraw = False
+249.9912 	EXP 	stimulus: image = u'x.png'
+249.9912 	EXP 	cue: autoDraw = True
+250.0732 	EXP 	cue: autoDraw = False
+251.5892 	EXP 	stimulus: autoDraw = True
+251.7225 	EXP 	stimulus: autoDraw = False
+251.9060 	DATA 	Keypress: tab
+254.2058 	EXP 	New trial (rep=25, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+254.2215 	EXP 	cue: autoDraw = False
+254.2215 	EXP 	stimulus: autoDraw = False
+254.2215 	EXP 	stimulus: image = u'+.png'
+254.2215 	EXP 	cue: autoDraw = True
+254.3714 	EXP 	cue: autoDraw = False
+255.8874 	EXP 	stimulus: autoDraw = True
+256.0208 	EXP 	stimulus: autoDraw = False
+258.5039 	EXP 	New trial (rep=25, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+258.5904 	EXP 	cue: autoDraw = False
+258.5904 	EXP 	stimulus: autoDraw = False
+258.5904 	EXP 	stimulus: image = u'x.png'
+258.5904 	EXP 	cue: autoDraw = True
+258.6696 	EXP 	cue: autoDraw = False
+260.1856 	EXP 	stimulus: autoDraw = True
+260.3188 	EXP 	stimulus: autoDraw = False
+260.4356 	DATA 	Keypress: tab
+262.8022 	EXP 	New trial (rep=26, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+262.8178 	EXP 	cue: autoDraw = False
+262.8178 	EXP 	stimulus: autoDraw = False
+262.8178 	EXP 	stimulus: image = u'+.png'
+262.8178 	EXP 	cue: autoDraw = True
+262.9677 	EXP 	cue: autoDraw = False
+264.4838 	EXP 	stimulus: autoDraw = True
+264.6170 	EXP 	stimulus: autoDraw = False
+267.1002 	EXP 	New trial (rep=26, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+267.1823 	EXP 	cue: autoDraw = False
+267.1823 	EXP 	stimulus: autoDraw = False
+267.1823 	EXP 	stimulus: image = u'x.png'
+267.1823 	EXP 	cue: autoDraw = True
+267.2659 	EXP 	cue: autoDraw = False
+268.7820 	EXP 	stimulus: autoDraw = True
+268.9152 	EXP 	stimulus: autoDraw = False
+269.0324 	DATA 	Keypress: tab
+271.3985 	EXP 	New trial (rep=27, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+271.4141 	EXP 	cue: autoDraw = False
+271.4141 	EXP 	stimulus: autoDraw = False
+271.4141 	EXP 	stimulus: image = u'+.png'
+271.4141 	EXP 	cue: autoDraw = True
+271.5641 	EXP 	cue: autoDraw = False
+273.0801 	EXP 	stimulus: autoDraw = True
+273.2134 	EXP 	stimulus: autoDraw = False
+275.6965 	EXP 	New trial (rep=27, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+275.7791 	EXP 	cue: autoDraw = False
+275.7791 	EXP 	stimulus: autoDraw = False
+275.7791 	EXP 	stimulus: image = u'x.png'
+275.7791 	EXP 	cue: autoDraw = True
+275.8623 	EXP 	cue: autoDraw = False
+277.3783 	EXP 	stimulus: autoDraw = True
+277.5115 	EXP 	stimulus: autoDraw = False
+277.6450 	DATA 	Keypress: tab
+279.9948 	EXP 	New trial (rep=28, index=0): {u'stimFile': u'+.png', u'corrAns': None}
+280.0105 	EXP 	cue: autoDraw = False
+280.0105 	EXP 	stimulus: autoDraw = False
+280.0105 	EXP 	stimulus: image = u'+.png'
+280.0105 	EXP 	cue: autoDraw = True
+280.1604 	EXP 	cue: autoDraw = False
+281.6764 	EXP 	stimulus: autoDraw = True
+281.8264 	EXP 	stimulus: autoDraw = False
+284.2928 	EXP 	New trial (rep=28, index=1): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+284.3725 	EXP 	cue: autoDraw = False
+284.3725 	EXP 	stimulus: autoDraw = False
+284.3725 	EXP 	stimulus: image = u'x.png'
+284.3725 	EXP 	cue: autoDraw = True
+284.4587 	EXP 	cue: autoDraw = False
+285.9747 	EXP 	stimulus: autoDraw = True
+286.1079 	EXP 	stimulus: autoDraw = False
+286.2414 	DATA 	Keypress: tab
+288.5911 	EXP 	New trial (rep=29, index=0): {u'stimFile': u'x.png', u'corrAns': u'tab'}
+288.6653 	EXP 	cue: autoDraw = False
+288.6653 	EXP 	stimulus: autoDraw = False
+288.6653 	EXP 	stimulus: image = u'x.png'
+288.6653 	EXP 	cue: autoDraw = True
+288.7734 	EXP 	cue: autoDraw = False
+290.2728 	EXP 	stimulus: autoDraw = True
+290.4060 	EXP 	stimulus: autoDraw = False
+290.7561 	DATA 	Keypress: tab
+292.8893 	EXP 	New trial (rep=29, index=1): {u'stimFile': u'+.png', u'corrAns': None}
+292.9050 	EXP 	cue: autoDraw = False
+292.9050 	EXP 	stimulus: autoDraw = False
+292.9050 	EXP 	stimulus: image = u'+.png'
+292.9050 	EXP 	cue: autoDraw = True
+293.0550 	EXP 	cue: autoDraw = False
+294.5710 	EXP 	stimulus: autoDraw = True
+294.7042 	EXP 	stimulus: autoDraw = False
+297.2284 	EXP 	window1: mouseVisible = True
